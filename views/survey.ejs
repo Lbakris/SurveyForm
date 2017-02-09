@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <div id="SurveyForm">
+      <form class="" action="/create_results" method="post">
+        Name:<input type="text" name="Name" value="">
+        Dojo Location:<select class="dojolocation">
+          <option value="Mountain View">Mountain View</option>
+          <option value="Chicago">Chicago</option>
+          <option value="Dallas">Dallas</option>
+          <option value="Seatle">Seattle</option>
+        </select>
+        Favorite Lang:<select class="favlang">
+          <option value="Javascript">Javascript</option>
+          <option value="Python">Python</option>
+          <option value="Ruby">Ruby</option>
+          <option value="HTML/CSS">HTML/CSS</option>
+        </select>
+        <textarea name="Comment (optional)" rows="8" cols="80"></textarea>
+        <input type="submit" name="Submit" value="Submit">
+      </form>
+    </div>
+  </body>
+</html>
